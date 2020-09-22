@@ -18,7 +18,6 @@ nav{
     justify-content: space-between;
     letter-spacing: 2px;
     text-transform: uppercase;
-    position: fixed;
     font-weight: 600;
     top: 0;
     left: 0;
@@ -29,8 +28,8 @@ nav{
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
     z-index: 1;
 }
-.menu li {
-    display: flex;
+.menu li{
+    display:flex;
 }
 .menu li a{
     padding: 10px 15px;
@@ -38,6 +37,7 @@ nav{
     color: blueviolet;
 }
 .logo {
+    font-size: 23px;
     font-family: fantasy;
     color: darkorange;
 }
